@@ -71,7 +71,6 @@ app.post("/books", async (req, res) => {
   }
 });
 
-
 app.get("/books/:id", async (req, res) => {
   try {
     let id = req.params.id;
